@@ -1,0 +1,13 @@
+name: Continuous Integration
+
+on: [pull_request]
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install packages
+        run: npm i
+      - name: Run Frontend Test using Jest
+        run: npm run test -- --watchAll=false
