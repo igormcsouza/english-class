@@ -23,7 +23,7 @@ function App() {
           English Class <strong style={{ color: "green" }}>is Coming!</strong>
         </p>
         <Grid container justify="center" style={{ width: "100%" }}>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <IconAndTitle
               link="https://www.instagram.com/englishclassonline9/"
               title="@englishclassonline9"
@@ -34,7 +34,7 @@ function App() {
               />
             </IconAndTitle>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <IconAndTitle
               link="mailto://contatoenglishclass9@gmail.com"
               title="contatoenglishclass9"
@@ -45,7 +45,7 @@ function App() {
               />
             </IconAndTitle>
           </Grid>
-          <Grid item xs={3}>
+          <Grid item xs={12} md={6} lg={3}>
             <IconAndTitle
               link="https://www.linkedin.com/in/igormcsouza/"
               title="igormcsouza"
