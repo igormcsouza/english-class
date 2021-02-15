@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v1
       - name: Install packages
         run: npm i
-      - name: Run Frontend Test using Jest
+      - name: Run test using Jest
         run: npm run test -- --watchAll=false
